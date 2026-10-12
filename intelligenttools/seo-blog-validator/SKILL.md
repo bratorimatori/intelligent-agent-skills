@@ -1,3 +1,8 @@
+---
+name: seo-blog-validator
+description: Validate a blog post against intelligenttools.co SEO standards — title and excerpt length, em-dash removal, internal links, heading hierarchy, developer voice — and generate optimized titles and excerpts. Use after writing a draft and before publishing any blog post.
+---
+
 # SEO Blog Validator Skill
 
 Validates and optimizes blog posts for intelligenttools.co SEO standards.

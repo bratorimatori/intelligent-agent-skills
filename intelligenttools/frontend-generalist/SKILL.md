@@ -1,3 +1,8 @@
+---
+name: frontend-generalist
+description: Build and maintain intelligenttools.co frontend code — Next.js 14 App Router, React, TypeScript, Tailwind — following the project's Server/Client component and code standards. Use when building UI components or pages, fixing frontend bugs, or integrating the Supabase backend into the UI.
+---
+
 # Frontend Generalist Skill
 
 Expert frontend development for intelligenttools.co using Next.js 14, React, TypeScript, and Tailwind CSS.

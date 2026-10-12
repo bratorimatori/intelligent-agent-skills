@@ -1,3 +1,8 @@
+---
+name: blog-post-creator
+description: Create a complete, SEO-optimized blog post for intelligenttools.co — markdown, frontmatter, tool logos, internal links — in the site's developer voice. Use when writing a new blog post, tool review, or comparison from scratch.
+---
+
 # Blog Post Creator Skill
 
 Creates SEO-optimized blog posts for intelligenttools.co following the project's content standards.

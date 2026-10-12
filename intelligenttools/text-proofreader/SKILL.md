@@ -1,3 +1,8 @@
+---
+name: text-proofreader
+description: Proofread prose that ships to readers — blog post markdown and tool descriptions in the DB — for grammar, spelling, punctuation, and the mistakes spellcheck misses, reporting each with a location and suggested fix (never editing the DB directly; fixes go out as a migration). Use before publishing a post or when checking tool-description text. Does not run SEO checks or rewrite for style.
+---
+
 # Text Proofreader Skill
 
 Proofreads the prose that ships to readers: blog post markdown and tool descriptions in the database.

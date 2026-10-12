@@ -1,3 +1,8 @@
+---
+name: newsletter-issue
+description: Draft and send the intelligenttools.co newsletter — pick recent tools, verify every price against its row, draft HTML + plain text in the house voice, and send a draft for approval before the list. Use every two weeks when an issue is due, when you want one drafted early, or to check the queue without sending.
+---
+
 # Newsletter Issue Skill
 
 Builds and sends the intelligenttools.co newsletter. Runs every two weeks.

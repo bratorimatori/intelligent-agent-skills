@@ -1,3 +1,8 @@
+---
+name: tool-adder
+description: Safely add a new AI tool to the intelligenttools.co database — verify info from the official site, validate pricing, pick category and tags, write SEO + long descriptions, auto-enrich from GitHub/Wikipedia, and emit SQL to migrations/ (never executed directly), enforcing the CLAUDE.md database-safety rules. Use when adding a tool to the directory.
+---
+
 # Tool Adder Skill
 
 Safely adds new AI tools to the intelligenttools.co database with complete verification and SEO validation.
