@@ -15,6 +15,18 @@ A skill is a directory containing a `SKILL.md` with YAML frontmatter (`name`,
 |---|---|
 | [`blogging-anti-patterns`](general/blogging-anti-patterns/SKILL.md) | Editing checklist for software blog posts — structural mistakes that lose readers. Distilled from Michael Lynch's "Anti-Patterns in Software Blogging." |
 | [`stop-slop`](general/stop-slop/SKILL.md) | Remove predictable AI writing patterns from prose. Third-party (Hardik Pandya, MIT) — see its inline license. |
+| [`article-draft`](general/article-draft/SKILL.md) | Draft a long-form article in the user's voice from a topic and an angle, refusing to proceed without an argument. |
+| [`headline-work`](general/headline-work/SKILL.md) | Generate and score titles against explicit criteria and recommend one, instead of listing ten. |
+| [`list-email`](general/list-email/SKILL.md) | Write an email to a subscriber list that reads like a person wrote it, with one job per email. |
+| [`repurpose`](general/repurpose/SKILL.md) | Cut one finished piece into the other formats it can carry, keeping only the parts that survive the move. |
+| [`social-batch`](general/social-batch/SKILL.md) | Turn one idea into a week of short posts across X, Threads or LinkedIn, mixing formats deliberately. |
+| [`video-script`](general/video-script/SKILL.md) | Write a video script structured for retention, in spoken language rather than written language. |
+| [`voice-profile`](general/voice-profile/SKILL.md) | Derive a reusable writing voice profile from work the user has already published. |
+| [`verify-gate`](general/verify-gate/SKILL.md) | Run the repository's definition of done before handing work back. |
+| [`claim-check`](general/claim-check/SKILL.md) | Verify every factual claim in a draft against its source before publishing. |
+| [`safe-db-change`](general/safe-db-change/SKILL.md) | Take a production database change through generate, validate, dry run, ask, execute, verify. |
+| [`page-check`](general/page-check/SKILL.md) | Load a URL in a real headless browser and report what actually happened, instead of trusting a status code. |
+| [`send-safely`](general/send-safely/SKILL.md) | Pre-flight a recipient list and dry-run an email send before anything leaves the machine. |
 
 ### `intelligenttools/` — specific to our setup
 
