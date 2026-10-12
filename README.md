@@ -33,6 +33,20 @@ A skill is a directory containing a `SKILL.md` with YAML frontmatter (`name`,
 | Skill | What it does |
 |---|---|
 | [`supabase-intelligenttools-co`](intelligenttools/supabase-intelligenttools-co/SKILL.md) | How to reach the Supabase database behind intelligenttools.co: which key, the RLS zero-row trap, which scripts read vs. write. Sanitized — carries no credentials. |
+| [`blog-post-creator`](intelligenttools/blog-post-creator/SKILL.md) | Create SEO-optimized blog posts for intelligenttools.co following the project's content standards. Sanitized — project ref replaced with a placeholder. |
+| [`frontend-generalist`](intelligenttools/frontend-generalist/SKILL.md) | Frontend development for intelligenttools.co (Next.js 14, React, TypeScript, Tailwind). |
+| [`newsletter-issue`](intelligenttools/newsletter-issue/SKILL.md) | Build and send the intelligenttools.co newsletter. |
+| [`seo-blog-validator`](intelligenttools/seo-blog-validator/SKILL.md) | Validate and optimize blog posts against intelligenttools.co SEO standards. |
+| [`text-proofreader`](intelligenttools/text-proofreader/SKILL.md) | Proofread prose that ships to readers — blog markdown and tool descriptions. |
+| [`tool-adder`](intelligenttools/tool-adder/SKILL.md) | Safely add new AI tools to the directory DB with verification and SEO validation. |
+| [`pricing-read`](intelligenttools/pricing-read/SKILL.md) | Read a vendor's real pricing off their own page and record it under one convention. |
+| [`repo-onboard`](intelligenttools/repo-onboard/SKILL.md) | Write a CLAUDE.md for an existing repo from what the code actually does. |
+
+Reference material (not triggered skills) lives alongside the tier:
+
+- [`intelligenttools/CLAUDE.md`](intelligenttools/CLAUDE.md) — the directory's project bible (rules, SQL templates, pricing ladder). Carries only env-var *names*, no values.
+- [`intelligenttools/_commands/`](intelligenttools/_commands) — first-party slash commands (`seo-blog-post`, `process-daily-submissions`, `add-new-tool`). `seo-blog-post` sanitized (project ref → placeholder).
+- [`intelligenttools/_agents/`](intelligenttools/_agents) — the 6 portable workspace agent instructions (Scout, Vera, Pricing Sweep, Tools Submissions, Intelligent Tools Dev, SEO Blog Writer). Agent secrets live in each agent's `custom_env`, never in these texts.
 
 ## Upstream skills (not vendored here)
 
@@ -58,5 +72,5 @@ authored in this workspace is covered by this repo's `LICENSE`.
 
 ## Status
 
-Private during rollout. Flips to public after a final secrets/licensing pass
-(tracked on INTE-108).
+Public. Populated with the Stage 1 clear-to-move assets; the project ref and all
+secret values were stripped before anything landed here (tracked on INTE-108).
