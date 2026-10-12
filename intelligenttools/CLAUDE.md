@@ -240,7 +240,7 @@ authored under any other address blocks the deployment rather than failing it
 loudly, so this is the one identity detail worth being careful about.
 
 As of 2026-09-30 the runtime host inherits it correctly. The machine-global git
-config is `BOJAN_COMMIT_EMAIL`, and the per-worktree identity Multica seeds from
+config is `<BOJAN_COMMIT_EMAIL>`, and the per-worktree identity Multica seeds from
 it now carries the same address, so a plain `git commit` in an agent checkout is
 already correct. It was not before: the global config held a work address, every
 agent worktree inherited it, and the commits that reached `main` under it are
@@ -250,11 +250,15 @@ Because that inheritance is host state rather than anything this repository
 controls, the explicit form remains the guaranteed one and costs nothing:
 
 ```bash
-git -c user.name="Bojan Tomic" -c user.email="BOJAN_COMMIT_EMAIL" commit -m "..."
+git -c user.name="Bojan Tomic" -c user.email="<BOJAN_COMMIT_EMAIL>" commit -m "..."
 ```
 
 If you ever see a commit of yours authored under a different address, the host
 config has drifted back. Say so rather than working around it commit by commit.
+
+> `BOJAN_COMMIT_EMAIL` is the Gmail address on the `bratorimatori` GitHub
+> account (kept out of this public repo). The real value lives in the host git
+> config and each agent's environment, not here.
 
 Nothing is committed straight onto a shared branch. Every change - tool batch,
 script, doc, `lib/dark-logos.ts` regeneration - goes on a branch off fresh
